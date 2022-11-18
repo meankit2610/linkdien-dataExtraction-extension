@@ -1,0 +1,17 @@
+{
+    "name": "Linkdien Scraper",
+    "description": "Get the Linkdien profile data in the JSON",
+    "version": "1.0",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"scraper.html"
+    },
+    "content_scripts":[
+        {
+            "matches":[
+                "https://www.linkedin.com/in/*"
+            ],
+            "js":["index.js"]
+        }
+    ]
+}
