@@ -6,3 +6,6 @@
   * open any linkdien profile 
   * when page get load
   * Data will come in console
+
+  ### GitHub Repo Link
+  https://github.com/meankit2610/linkdien-dataExtraction-extension
