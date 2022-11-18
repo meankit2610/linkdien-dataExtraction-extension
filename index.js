@@ -11,7 +11,9 @@ if (document.querySelector("div.ph5.pb5 > div.mt2.relative > div:nth-child(1) > 
 if (document.querySelector("#ember33").src) {
   linkData[0]['imgUrl'] =  document.querySelector("#ember33").src
 }
-
+//linkedin_profile_link
+    linkData[0]["link"] = window.location.href
+    
 //organization
 if (document.querySelector("div.ph5.pb5 > div.mt2.relative > ul > li > button > span") )
 {
